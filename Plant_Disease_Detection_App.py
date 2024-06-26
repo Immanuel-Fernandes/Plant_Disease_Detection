@@ -8,7 +8,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the trained model
-model = load_model('plant_disease_detection_model_v3.h5')
+model = load_model('plant_disease_detection_model.h5')
 labels = {0: 'Healthy', 1: 'Powdery', 2: 'Rust'}
 
 # Function to preprocess the uploaded image and make predictions
