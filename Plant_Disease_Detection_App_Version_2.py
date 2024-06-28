@@ -62,7 +62,7 @@ with col1:
     #st.write("Healthy")
 
 with col2:
-    st.image('sample_powdery.jpg', caption='Powdery Mildew', use_column_width=True)
+    st.image('sample_powdery.jpg', caption='Powdery', use_column_width=True)
     #st.write("Powdery Mildew")
 
 with col3:
