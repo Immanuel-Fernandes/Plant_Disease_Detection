@@ -66,7 +66,7 @@ with col1:
 if col2.button('Upload powdery Sample', key='button2'):
     display_prediction('sample_powdery.jpg')
 with col2:
-    st.image('sample_powdery.jpg', caption='Powdery Mildew', use_column_width=True)
+    st.image('sample_powdery.jpg', caption='Powdery', use_column_width=True)
 
 if col3.button('Upload Rust Sample', key='button3'):
     display_prediction('sample_rust.jpg')
